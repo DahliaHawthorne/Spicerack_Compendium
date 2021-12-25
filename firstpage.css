@@ -1,0 +1,114 @@
+#body1 {
+    background-color: black;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*NAVBAR*/
+#navbar {
+    background-color: grey;
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    color: white;
+}
+
+#navbar .text {
+    padding: 30px 75px 27px 150px;
+}
+
+#navicon {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/*Box for Heading*/
+.boxforheading {
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+.currentcollage {
+    blur: (2px);
+    -webkit-filter: blur(2px);
+}
+
+.textover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 150px;
+    font-size: 80px;
+}
+
+.currentcollage2 {
+    blur: (2px);
+    -webkit-filter: blur(2px);
+}
+
+.textover2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 150px;
+    font-size: 80px;
+}
+
+.currentmembersheading {
+    color: white;
+    padding-top: 45px;
+    font-size: 50px;
+}
+
+/*Current Members Boxes*/
+#firstbox {
+    margin-top: 250px;
+}
+
+#firstbox2 {
+    margin-top: 250px;
+}
+
+.infobox {
+    border: 2px solid black;
+    background-color: white;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.profileimg {
+    width: 250px;
+    height: 150px;
+    object-fit: contain;
+    float: left;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+/*To other part*/
+.tootherpart {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
